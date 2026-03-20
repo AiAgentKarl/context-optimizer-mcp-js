@@ -1,0 +1,24 @@
+{
+  "name": "@aiagentkarl/context-optimizer-mcp",
+  "version": "0.1.0",
+  "description": "Solve MCP context window overload — smart tool pruning, relevance scoring, budget tracking",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "context-optimizer-server": "./index.js"
+  },
+  "keywords": [
+    "mcp",
+    "context",
+    "optimization",
+    "agent",
+    "tool-pruning",
+    "context-window",
+    "model-context-protocol"
+  ],
+  "author": "AiAgentKarl",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
